@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2024, 4:09:31 PM
+    Author     : Dell Vostro
+*/
+
+/* Custom CSS for back button */
+#btn-back {
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+}
+
+/* Custom CSS for create button */
+#btn-create {
+    border: none;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+}
+
+.hr {
+    margin: 0;
+    margin-bottom: 15px;
+    border-width: 2px;
+}
+
+/* Custom CSS to align search text and field side by side */
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    width: auto;
+}
+
+/* Custom CSS to align show entries label and select side by side */
+div.dataTables_wrapper div.dataTables_length {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    margin-left: 0;
+    width: auto;
+}
+
+/* Custom CSS to place pagination at the right side */
+div.dataTables_wrapper div.dataTables_paginate {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Custom CSS to adjust the height of select2 element */
+.select2-container--default .select2-selection--single {
+    height: 38px; /* Same height as Bootstrap's .form-control */
+    padding: 0.3rem 0.45rem; /* Same padding as .form-control */
+    border: 1px solid #ced4da; /* Same border as .form-control */
+    border-radius: 0.25rem; /* Same border-radius as .form-control */
+}
+
+/* Custom CSS for rating */
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    display: inline-flex;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input[type="radio"]:checked ~ label {
+    color: #ffc700;
+}
+
+/* Custom CSS for welcome.jsp */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F0EBE3;
+    padding: 20px;
+}
+
+.welcome-message {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.description-message {
+    font-size: 18px;
+}
+
+.footer-bg {
+    background-color: #F0EBE3;
+}
+
+/* Custom CSS for icons in welcome.jsp */
+.feature-icon {
+    font-size: 50px;
+    color: #007bff;
+}
+
+/* Custom CSS for buttons in welcome.jsp */
+.btn-custom {
+    background-color: #C7B7A3;
+    color: white; /* Adjust text color if needed */
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #b09d8d;
+    color: white;
+}
